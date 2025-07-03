@@ -227,3 +227,12 @@ git filter-branch
 doesn't really work because it lacks the --prune-empty option.
 
 
+
+## Running tests
+
+This repository uses [Bats](https://github.com/bats-core/bats-core) for unit testing.
+To run the tests, execute:
+
+```
+bats test/hello.bats
+```
