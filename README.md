@@ -74,7 +74,7 @@ git remote -v
 git remote rm origin
    ```
 
-   `git remove -v` again will now return nothing.
+   `git remote -v` again will now return nothing.
 
 0. Copy a folder name you want to move to your invisible clipboard
    (directory 1).
